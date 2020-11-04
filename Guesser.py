@@ -54,3 +54,4 @@ while(1):
 	print(np.argmax(prediction))
 	
 	img[:,:,:] = 255 # resetting the window
+cv2.destroyAllWindows()
